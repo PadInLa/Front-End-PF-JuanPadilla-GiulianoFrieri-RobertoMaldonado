@@ -10,33 +10,33 @@ import {
 
 function Top() {
   return (
-    <AppBar position="static">
-      <Toolbar sx={{ justifyContent: "space-evenly" }}>
+    <AppBar position="static" style={{ backgroundColor: "#0a4f8a" }}>
+      <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
         <Typography variant="h6">Proyecto Final</Typography>
-        <Box sx={{ display: "flex", alignItems: "center" }}>
+        <Box style={{ display: "flex", alignItems: "center" }}>
           <Select
-            defaultValue="Option 1"
-            sx={{ mr: 2, backgroundColor: "#FFFFFF" }}
+            defaultValue="Categoría"
+            style={{ backgroundColor: "white", marginRight: "10px" }}
           >
-            <MenuItem value="Option 1">Categoría</MenuItem>
-            <MenuItem value="Option 2">Option 2</MenuItem>
+            <MenuItem value="Categoría">Categoría</MenuItem>
+            {/* Add more MenuItems here */}
           </Select>
           <Select
-            defaultValue="Option 1"
-            sx={{ mr: 2, backgroundColor: "#FFFFFF" }}
+            defaultValue="Subcategoría"
+            style={{ backgroundColor: "white", marginRight: "10px" }}
           >
-            <MenuItem value="Option 1">Subcategoría</MenuItem>
-            <MenuItem value="Option 2">Option 2</MenuItem>
+            <MenuItem value="Subcategoría">Subcategoría</MenuItem>
+            {/* Add more MenuItems here */}
           </Select>
           <Select
-            defaultValue="Option 1"
-            sx={{ mr: 2, backgroundColor: "#FFFFFF" }}
+            defaultValue="Producto"
+            style={{ backgroundColor: "white", marginRight: "10px" }}
           >
-            <MenuItem value="Option 1">Producto</MenuItem>
-            <MenuItem value="Option 2">Option 2</MenuItem>
+            <MenuItem value="Producto">Producto</MenuItem>
+            {/* Add more MenuItems here */}
           </Select>
-          <Button variant="contained" color="secondary">
-            Buscar
+          <Button variant="contained" color="primary">
+            BUSCAR
           </Button>
         </Box>
       </Toolbar>

@@ -3,10 +3,10 @@ import Top from "components/Top";
 
 const Landing = () => {
   return (
-    <div>
+    <>
       <Top />
       <MainContent />
-    </div>
+    </>
   );
 };
 
