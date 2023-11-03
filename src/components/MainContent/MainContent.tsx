@@ -16,7 +16,7 @@ function MainContent() {
         <Grid item xs={12} md={8}>
           <Paper sx={{ p: 2, mb: 3 }}>
             <Image
-              src=".\src\assets\newplot.png"
+              src="./src/assets/newplot.png"
               sx={{ width: "100%", maxHeight: "700px" }}
             />
           </Paper>
